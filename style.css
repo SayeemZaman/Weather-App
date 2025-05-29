@@ -1,0 +1,51 @@
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0px;
+}
+body {
+    margin: 0px;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #1f1f1f;
+}
+.card{
+    background-color: #9fc0f5;
+    padding: 28px;
+    min-height: 300px;
+    min-width: 200px;
+    border-radius: 4px;
+}
+
+/* Search */
+#search{
+    display: flex;
+    gap: 8px;    
+}
+#search *{
+    background-color: white;
+    border-radius: 6px;
+    height: 35px;
+    border: none;
+}
+#bar{
+    width: 160px;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+#src-btn{
+    width: 35px;
+}
+#search input{
+    outline: none;
+    padding: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#error{
+    font-size: 12px;
+    color: red;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
