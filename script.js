@@ -14,6 +14,7 @@ async function getWeather(city) {
         $('#error').text('Please enter a proper city name!');
     }
 }
+$(document).click(() => $('#error').css('display', 'none') )
 
 function setWeather(data) {
     $('#tmp').text(data.main.temp + "C");
