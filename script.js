@@ -1,6 +1,5 @@
 const search = $('form');
 
-const apiKey = 'ce6556fcf4e452a207fe0735729d4b03';
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=';
 
 async function getWeather(city) {
